@@ -14,13 +14,16 @@ router.get('/maxence', (req, res, next) => {
   res.render('users/maxence');
 });
 
-
 router.get('/carlos', (req, res, next) => {
   res.render('users/carlos');
 });
 
 router.get('/giulia', (req, res, next) => {
   res.render('users/giulia');
+});
+
+router.get('/sonia', (req, res, next) => {
+  res.render('users/sonia');
 });
 
 module.exports = router;
