@@ -24,6 +24,9 @@ router.get('/carlos', (req, res, next) => {
   res.render('users/carlos');
 });
 
+router.get('/sonia', (req, res, next) => {
+  res.render('users/sonia');
+});
 
 >>>>>>> eee44508643166319671c8613fea26d6ae6d2f3e
 module.exports = router;
