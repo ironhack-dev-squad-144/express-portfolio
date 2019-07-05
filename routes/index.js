@@ -6,6 +6,11 @@ router.get('/', (req, res, next) => {
   res.render('index');
 });
 
+router.get('/mariana', (req, res, next) => {
+  res.render('users/mariana');
+});
+
+
 router.get('/maxence', (req, res, next) => {
   res.render('users/maxence');
 });
