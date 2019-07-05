@@ -14,6 +14,9 @@ router.get('/maxence', (req, res, next) => {
   res.render('users/maxence');
 });
 
+router.get('/seb', (req, res, next) => {
+  res.render('users/seb');
+});
 
 
 module.exports = router;
