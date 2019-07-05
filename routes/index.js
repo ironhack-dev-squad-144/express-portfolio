@@ -18,9 +18,5 @@ router.get('/carlos', (req, res, next) => {
   res.render('users/carlos');
 });
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 5f22bac769118e8d28cec891206dfd683735235c
 
 module.exports = router;
