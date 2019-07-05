@@ -14,6 +14,13 @@ router.get('/maxence', (req, res, next) => {
   res.render('users/maxence');
 });
 
+<<<<<<< HEAD
+router.get('/carlos', (req, res, next) => {
+  res.render('users/carlos');
+});
+
+=======
+>>>>>>> b21a1fe37df61beabafbdb35d2e233ef59f61a9a
 
 
 module.exports = router;
