@@ -10,4 +10,8 @@ router.get('/maxence', (req, res, next) => {
   res.render('users/maxence');
 });
 
+router.get('/anja', (req, res, next) => {
+  res.render('users/anja');
+});
+
 module.exports = router;
